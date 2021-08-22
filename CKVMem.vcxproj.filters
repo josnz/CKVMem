@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CKVMem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kv_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\siphash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\zmalloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\sds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\Win32_Interop\Win32_ThreadControl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\Win32_Interop\Win32_Time.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\Win32_Interop\win32fixes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\Win32_Interop\Win32_APIs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dict\Win32_Interop\Win32_PThread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kv_mem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\zmalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\atomicvar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\fmacros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\redisassert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\sds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\sdsalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_ThreadControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_Time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\win32_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\win32_types_hiredis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\win32fixes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_APIs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_Portability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_PThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dict\Win32_Interop\Win32_QFork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
