@@ -1,0 +1,1 @@
+This is shared memory that can write/read by Key name.
